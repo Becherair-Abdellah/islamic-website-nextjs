@@ -18,6 +18,7 @@ const VideoSection = ({ videoUrl, title }) => {
         />
       </div>
       <h2 className="text-md font-bold text-blue-900 my-3 px-2">{title}</h2>
+      <p className='p-2'>البرامج الصوتية والمرئية، والمحاضرات المُسجلة، واللقاءات الإعلامية.</p>
     </div>
   );
 };

@@ -4,7 +4,7 @@ const KhutbaCard = ({ title, deliveryDate, publishDate, tags }) => {
   return (
     <div className="rounded-none border-blue-950 border-2 bg-gray-50">
       <div className="p-2">
-        <h2 className="text-sm md:text-lg font-bold mb-2 text-blue-900 p-0 m-0 cursor-pointer">{title}</h2>
+        <h2 className="text-sm md:text-lg font-bold mb-2 text-blue-900 p-0 hover:underline transition m-0 cursor-pointer">{title}</h2>
         <p className="text-black text-sm md:text-md mb-2">تاريخ الإلقاء: <span className='mr-1'>{deliveryDate}</span></p>
         <p className="text-gray-600 text-sm md:text-md">تاريخ النشر: {publishDate}</p>
       </div>
@@ -12,7 +12,7 @@ const KhutbaCard = ({ title, deliveryDate, publishDate, tags }) => {
         {tags.map((tag, index) => (
           <span
             key={index}
-            className="bg-blue-200 text-blue-800 text-xs md:text-sm font-semibold px-2.5 py-0.5 rounded"
+            className="bg-blue-50 border-[1px] border-blue-900 text-blue-800 text-xs md:text-sm font-semibold px-2.5 py-0.5 rounded"
           >
             {tag}
           </span>

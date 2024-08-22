@@ -472,6 +472,9 @@ export default function UserLayout({ children }) {
             <li>
               <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> المرئيات </a>
             </li>
+            <li>
+              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> مقالات </a>
+            </li>
           </ul>
         </div>
 
@@ -562,17 +565,6 @@ export default function UserLayout({ children }) {
     <div className="mt-12 border-t border-gray-100 pt-6">
       <div className="text-center sm:flex sm:justify-between sm:text-left">
         <p className="text-sm text-gray-500">
-         
-
-          <a
-            className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-            href="#"
-          >
-            القواعد و الشروط
-          </a>
-
-          <span>&middot;</span>
-
           <a
             className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
             href="#"
@@ -588,8 +580,6 @@ export default function UserLayout({ children }) {
     </div>
   </div>
 </footer>
-// Render a YouTube video player
-
     </>
   );
 }
