@@ -1,10 +1,13 @@
 'use client'
+
+import Image from "next/image";
+
 const BookCard = ({ title, desc, downloads, imgSrc }) => {
     return (
       <div className="flex flex-col md:flex-row border-2 border-gray-300  p-4 items-start w-full">
       {/* صورة الكتاب */}
       <div className="w-full md:w-1/3 mb-4 md:mb-0 md:pr-4 ml-8">
-        <img src={imgSrc} alt={title} className="w-full h-48 object-cover rounded-md" />
+        <img  src={imgSrc} alt={title} className="w-full h-48 object-cover rounded-md" />
       </div>
       {/* معلومات الكتاب */}
       <div className="w-full md:w-2/3">

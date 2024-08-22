@@ -1,8 +1,10 @@
 import React from 'react'
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card'
+import Link from 'next/link'
 
 const GetFatwa = ({title,desc,tags,date,id}) => {
   return (
+    <Link href="/u/fatwa/1">
     <Card className=" relative rounded-none border-blue-950 border-2 w-full bg-gray-50">
         <span className='text-gray-700 absolute bottom-2 left-2'>ID : {id}</span>
     <CardHeader className="p-2">
@@ -29,6 +31,7 @@ const GetFatwa = ({title,desc,tags,date,id}) => {
         ))}
       </div>
   </Card>
+    </Link>
   )
 }
 

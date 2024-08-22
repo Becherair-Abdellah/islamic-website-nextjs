@@ -1,10 +1,13 @@
+import Link from 'next/link';
 import React from 'react';
 
 const KhutbaCard = ({ title, deliveryDate, publishDate, tags }) => {
   return (
     <div className="rounded-none border-blue-950 border-2 bg-gray-50">
       <div className="p-2">
-        <h2 className="text-sm md:text-lg font-bold mb-2 text-blue-900 p-0 hover:underline transition m-0 cursor-pointer">{title}</h2>
+    <Link href="/u/khotab/1">
+    <h2 className="text-sm md:text-lg font-bold mb-2 text-blue-900 p-0 hover:underline transition m-0 cursor-pointer">{title}</h2>
+    </Link>
         <p className="text-black text-sm md:text-md mb-2">تاريخ الإلقاء: <span className='mr-1'>{deliveryDate}</span></p>
         <p className="text-gray-600 text-sm md:text-md">تاريخ النشر: {publishDate}</p>
       </div>

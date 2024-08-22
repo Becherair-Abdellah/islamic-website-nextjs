@@ -160,92 +160,92 @@ export default function UserLayout({ children }) {
         <div className="bg-blue-900 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
-              <h1 className="text-white font-bold text-xl md:text-2xl ">
+              <Link href="/u/"><h1 className="text-white font-bold text-xl md:text-2xl ">
                 الشعاروالإسم
-              </h1>
+              </h1></Link>
             </div>
 
             <div className="hidden lg:block">
               <nav aria-label="Global">
                 <ul className="flex items-center text-white gap-6 text-sm">
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u"
                     >
                       {" "}
                       الرئيسية{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/namesallah"
                     >
                       {" "}
                       الأسماء الحسنى{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/fatwa/topics"
                     >
                       {" "}
                       الفتاوى{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/library/books"
                     >
                       {" "}
                       المكتبة{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/sounds/"
                     >
                       {" "}
                       الصوتيات{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/khotab/topics"
                     >
                       {" "}
                       الخطب{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
-                      href="#"
+                      href="/u/mawso3at/topics"
                     >
                       {" "}
                       الموسوعات{" "}
-                    </a>
+                    </Link>
                   </li>
 
                   <li>
-                    <a
+                    <Link
                       className="transition text-white font-semibold"
                       href="#"
                     >
                       {" "}
                       المنتدى{" "}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -415,15 +415,15 @@ export default function UserLayout({ children }) {
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/whoweare">
                 من نحن
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="contactus">
                إتصل بنا
-              </a>
+              </Link>
             </li>
 
             <li>
@@ -439,9 +439,9 @@ export default function UserLayout({ children }) {
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
+              <Link  className="text-gray-700 transition hover:text-gray-700/75" href="/u/namesallah">
                 أسماء الله الحسنى
-              </a>
+              </Link>
             </li>
 
             <li>
@@ -449,11 +449,11 @@ export default function UserLayout({ children }) {
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> فتاوى </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/fatwa/topics"> فتاوى </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> كتب </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/library/books"> كتب </Link>
             </li>
           </ul>
         </div>
@@ -463,17 +463,17 @@ export default function UserLayout({ children }) {
 
           <ul className="mt-8 space-y-4 text-sm">
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> الموسوعات </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/mawso3at/topics"> الموسوعات </Link>
             </li>
 
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> الصوتيات </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/sounds/"> الصوتيات </Link>
             </li>
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> المرئيات </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/mariyat/"> المرئيات </Link>
             </li>
             <li>
-              <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> مقالات </a>
+              <Link className="text-gray-700 transition hover:text-gray-700/75" href="/u/articles/topics"> مقالات </Link>
             </li>
           </ul>
         </div>
@@ -565,12 +565,12 @@ export default function UserLayout({ children }) {
     <div className="mt-12 border-t border-gray-100 pt-6">
       <div className="text-center sm:flex sm:justify-between sm:text-left">
         <p className="text-sm text-gray-500">
-          <a
+          <Link
             className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
-            href="#"
+            href="/u/privacypolicy"
           >
             سياسة الخصوصية
-          </a>
+          </Link>
 
           <span className="block mr-3 sm:inline">جميع الحقوق محفوظة.</span>
         </p>

@@ -28,9 +28,9 @@ export default function Topic({ children }) {
             <EachClass title="في القرآن" href="#" />
             <EachClass title="المرئيات" href="#maraiat" />
           </div>
-          <h2 className="p-2 flex items-center gap-2  justify-center border-2 text-xs md:text-sm border-blue-950 bg-blue-900 text-white cursor-pointer  mt-2 font-bold text-center mb-3">
+          {/* <h2 className="p-2 flex items-center gap-2  justify-center border-2 text-xs md:text-sm border-blue-950 bg-blue-900 text-white cursor-pointer  mt-2 font-bold text-center mb-3">
            <BsBookHalf size={18} color="white"/>إضافة كتاب
-          </h2>
+          </h2> */}
         </div>
 
         {/* القسم الأيسر */}

@@ -20,7 +20,7 @@ const LectureCard = ({ title, lectureNumber, bookName, publicationDate, lecturer
     return (
       <div className="border p-4 border-blue-900 flex flex-col justify-between">
         <div>
-          <h2 className="text-lg font-bold text-blue-900 cursor-pointer hover:underline transition">
+          <h2 className="text-lg font-bold text-blue-900 cursor-pointer">
             {title} - {bookName} {lectureNumber}
           </h2>
           <p className="text-gray-600 mt-3">تاريخ النشر: {publicationDate}</p>
