@@ -11,6 +11,7 @@ import CustomFormField from "./CustomFormField";
 import CustomButton from "./CustomButton";
 import { HiOutlineMail } from "react-icons/hi";
 import {
+    bookEditValidation,
   FatwaEditValidation,
   ForgetPasswordUserFormValidation,
 } from "@/lib/validation";
@@ -25,16 +26,19 @@ import { IoMdLock } from "react-icons/io";
 
 // const formSchema = z.object(UserFormValidation);
 
-export default function FatwaProfileComponent() {
+export default function BookProfileCompoenent() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
   const router = useRouter();
   const params = new URLSearchParams(window?.location.search);
   const form = useForm({
-    resolver: zodResolver(FatwaEditValidation),
+    resolver: zodResolver(bookEditValidation),
     defaultValues: {
-      email: "",
+      title: "",
+      description: "",
+      author: "",
+      caover_image: ""
     },
   });
 
@@ -67,36 +71,55 @@ export default function FatwaProfileComponent() {
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 mb-4">
         
             <>
-              {success && (
-                <CustomAlert
-                  title="نجاح التعديل" 
-                  state=""
-                  discr="تم تعديل الفتوى بنجاح"
-                  icon={<FaCheckCircle color="green" size={20} />}
-                />
-              )}
-              {error && (
-                <CustomAlert
-                  title="فشل التعديل"
-                  state="failure"
-                  discr="حدث خطأ من فضلك أعد المحاولة من جديد"
-                  icon={<MdOutlineError color="red" size={20} />}
-                />
-              )}
+            {success && (
+  <CustomAlert
+    title="نجاح التعديل" 
+    state="success"
+    discr="تم تعديل معلومات الكتاب بنجاح"
+    icon={<FaCheckCircle color="green" size={20} />}
+  />
+)}
+
+{error && (
+  <CustomAlert
+    title="فشل التعديل"
+    state="failure"
+    discr="حدث خطأ، من فضلك أعد المحاولة من جديد"
+    icon={<MdOutlineError color="red" size={20} />}
+  />
+)}
                 <CustomFormField
-                fieldType={FormFieldType.INPUT}
-                control={form.control}
-                name="title"
-                placeholder="عنوان الفتوى"
-                label="العنوان"
-              />
-              <CustomFormField
-                fieldType={FormFieldType.TEXTAREA}
-                control={form.control}
-                name="question"
-                placeholder="أطرح سؤالك "
-                label="السؤال"
-              />
+  fieldType={FormFieldType.INPUT}
+  control={form.control}
+  name="title"
+  placeholder="عنوان الكتاب"
+  label="عنوان الكتاب"
+/>
+
+<CustomFormField
+  fieldType={FormFieldType.TEXTAREA}
+  control={form.control}
+  name="description"
+  placeholder="وصف الكتاب"
+  label="وصف الكتاب"
+/>
+
+<CustomFormField
+  fieldType={FormFieldType.INPUT}
+  control={form.control}
+  name="author"
+  placeholder="مؤلف الكتاب"
+  label="مؤلف الكتاب"
+/>
+
+<CustomFormField
+  fieldType={FormFieldType.FILE_INPUT}  // Assuming SKELETON is for file uploads or similar
+  control={form.control}
+  name="image"
+  placeholder="صورة الكتاب"
+  label="صورة الكتاب"
+/>
+
               <CustomButton
                 type="submit"
                 text="تعديل"

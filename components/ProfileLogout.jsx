@@ -1,3 +1,4 @@
+'use client'
 import { FaRegUserCircle } from 'react-icons/fa';
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from './ui/dropdown-menu'
 import { logout } from '@/lib/actions/register-user';
@@ -14,8 +15,10 @@ import {
     AlertDialogTrigger,
   } from "@/components/ui/alert-dialog"
 import DataComponent from './DataComponent';
+import { useState } from 'react';
   
 const ProfileLogout = ({setAccessKey}) => {
+    const [isOpen,setIsopen] = useState('');
   return (
 <div className="flex justify-end w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4 ">
     {/* // profile components  */}
@@ -31,16 +34,16 @@ const ProfileLogout = ({setAccessKey}) => {
          > 
         
 
-         <AlertDialog >
+         <AlertDialog open={isOpen} onOpenChange={setIsopen} >
   <AlertDialogTrigger>  حسابي  </AlertDialogTrigger>
   <AlertDialogContent >
     <AlertDialogHeader>
       <AlertDialogTitle className="text-center text-[#015f6c]">الملف الشخصي</AlertDialogTitle>
-      <div>
+      <div className=''>
        {/* // فتاوى  */}
-        <DataComponent Fatwa title={"الفتاوى"} nbrElement={2} />
+        <DataComponent setIsOpen={setIsopen} type="fatawa" title={"الفتاوى"} nbrElement={2} />
             {/* // كتب  */}
-        <DataComponent Book title={"الكتب"} nbrElement={5} />
+        <DataComponent setIsOpen={setIsopen} type="books" title={"الكتب"} nbrElement={5} />
       </div>
     </AlertDialogHeader>
     <AlertDialogFooter className="text-right flex gap-3 justify-center w-full ">
