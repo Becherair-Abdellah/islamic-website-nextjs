@@ -1,0 +1,190 @@
+{
+  "users": [
+    {
+      "id": "6",
+      "username": "user6",
+      "email": "user6@example.com",
+      "fatwasCount": 0,
+      "fatwas": [],
+      "booksCount": 1,
+      "books": [
+        {
+          "id": 6,
+          "title": "Book Title 6",
+          "author": "Author 6",
+          "pdfUrl": "http://example.com/book6.pdf"
+        }
+      ],
+      "soundsCount": 1,
+      "sounds": [
+        {
+          "id": 4,
+          "title": "Sound Title 4",
+          "url": "http://example.com/sound4.mp3"
+        }
+      ],
+      "videosCount": 1,
+      "videos": [
+        {
+          "id": 6,
+          "title": "Video Title 6",
+          "description": "Description of video 6",
+          "url": "http://example.com/video6.mp4",
+          "thumbnail": "http://example.com/thumbnail6.jpg",
+          "duration": "18:00"
+        }
+      ],
+      "commentsCount": 2,
+      "comments": [
+        {
+          "id": 8,
+          "content": "Very insightful",
+          "user": "commenter8"
+        },
+        {
+          "id": 9,
+          "content": "Good job!",
+          "user": "commenter9"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "username": "user7",
+      "email": "user7@example.com",
+      "fatwasCount": 1,
+      "fatwas": [
+        {
+          "id": 4,
+          "title": "Fatwa Title 4",
+          "content": "Content of fatwa 4"
+        }
+      ],
+      "booksCount": 1,
+      "books": [
+        {
+          "id": 7,
+          "title": "Book Title 7",
+          "author": "Author 7",
+          "pdfUrl": "http://example.com/book7.pdf"
+        }
+      ],
+      "soundsCount": 0,
+      "sounds": [],
+      "videosCount": 1,
+      "videos": [
+        {
+          "id": 7,
+          "title": "Video Title 7",
+          "description": "Description of video 7",
+          "url": "http://example.com/video7.mp4",
+          "thumbnail": "http://example.com/thumbnail7.jpg",
+          "duration": "25:00"
+        }
+      ],
+      "commentsCount": 0,
+      "comments": []
+    },
+    {
+      "id": "9",
+      "username": "user9",
+      "email": "user9@example.com",
+      "fatwasCount": 1,
+      "fatwas": [
+        {
+          "id": 5,
+          "title": "Fatwa Title 5",
+          "content": "Content of fatwa 5"
+        }
+      ],
+      "booksCount": 1,
+      "books": [
+        {
+          "id": 9,
+          "title": "Book Title 9",
+          "author": "Author 9",
+          "pdfUrl": "http://example.com/book9.pdf"
+        }
+      ],
+      "soundsCount": 0,
+      "sounds": [],
+      "videosCount": 1,
+      "videos": [
+        {
+          "id": 9,
+          "title": "Video Title 9",
+          "description": "Description of video 9",
+          "url": "http://example.com/video9.mp4",
+          "thumbnail": "http://example.com/thumbnail9.jpg",
+          "duration": "40:00"
+        }
+      ],
+      "commentsCount": 2,
+      "comments": [
+        {
+          "id": 11,
+          "content": "Interesting topic",
+          "user": "commenter11"
+        },
+        {
+          "id": 12,
+          "content": "Very well explained",
+          "user": "commenter12"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "username": "user10",
+      "email": "user10@example.com",
+      "fatwasCount": 0,
+      "fatwas": [],
+      "booksCount": 1,
+      "books": [
+        {
+          "id": 10,
+          "title": "Book Title 10",
+          "author": "Author 10",
+          "pdfUrl": "http://example.com/book10.pdf"
+        }
+      ],
+      "soundsCount": 1,
+      "sounds": [
+        {
+          "id": 6,
+          "title": "Sound Title 6",
+          "url": "http://example.com/sound6.mp3"
+        }
+      ],
+      "videosCount": 1,
+      "videos": [
+        {
+          "id": 10,
+          "title": "Video Title 10",
+          "description": "Description of video 10",
+          "url": "http://example.com/video10.mp4",
+          "thumbnail": "http://example.com/thumbnail10.jpg",
+          "duration": "45:00"
+        }
+      ],
+      "commentsCount": 3,
+      "comments": [
+        {
+          "id": 13,
+          "content": "Very helpful, thanks!",
+          "user": "commenter13"
+        },
+        {
+          "id": 14,
+          "content": "Excellent!",
+          "user": "commenter14"
+        },
+        {
+          "id": 15,
+          "content": "I learned a lot",
+          "user": "commenter15"
+        }
+      ]
+    }
+  ]
+}

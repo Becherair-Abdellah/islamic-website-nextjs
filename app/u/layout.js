@@ -1,5 +1,6 @@
 
 import NavigationLinks from "@/components/NavigationLinks";
+import Regisration from "@/components/Regisration";
 import Search from "@/components/Search";
 import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -8,6 +9,7 @@ export default function UserLayout({ children }) {
 
   return (
     <>
+    <div></div>
       <header className="bg-white">
         <div className="bg-blue-50 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
@@ -130,34 +132,16 @@ export default function UserLayout({ children }) {
               </li>
             </ul>
 
-            <div className="block text-blue-900 text-[14px] md:text-md">
+            <div className="block text-[#015f6c] text-[14px] md:text-md">
               16 صفر 1446 - 20 أغسطس 2024
             </div>
 
-            <div className="flex items-center gap-4">
-              <div className="sm:flex sm:gap-2">
-                <Link
-                  className="rounded-md bg-blue-900 px-5 py-2.5 text-sm font-medium text-white shadow"
-                  href="/login"
-                >
-                  تسجيل الدخول
-                </Link>
-
-                <div className="hidden md:flex">
-                  <Link
-                    className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-blue-900"
-                    href="/register"
-                  >
-                    إنشاء حساب
-                  </Link>
-                </div>
-              </div>
-            </div>
+            <Regisration/>
 
           </div>
         </div>
 
-        <div className="bg-blue-900 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div className="bg-[#015f6c] mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="md:flex md:items-center md:gap-12">
               <Link href="/u/"><h1 className="text-white font-bold text-xl md:text-2xl ">
@@ -281,7 +265,7 @@ export default function UserLayout({ children }) {
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
       <div>
       <div className="md:flex md:items-center md:gap-12">
-              <h1 className="text-blue-900 font-bold text-xl md:text-2xl  ">
+              <h1 className="text-[#015f6c] font-bold text-xl md:text-2xl  ">
                 الشعار و الإسم
               </h1>
             </div>

@@ -5,7 +5,7 @@ const page = () => {
     <div className=" p-6 max-w-6xl mx-auto">
     <h2 className="text-2xl font-bold mb-4 text-center">مرئيات  </h2>
     <section className="mb-4">
-      <p className="font-semibold text-blue-900 text-center">يحرص مشروع سلام على إتاحة العديد من المواد بشكل مجاني لكل المهتمين به. نرجو أن تستمتع بهذه المجموعة من المقاطع التعريفية، والبرامج الصوتية والمرئية، والمحاضرات المُسجلة، واللقاءات الإعلامية. </p>
+      <p className="font-semibold text-[#015f6c] text-center">يحرص مشروع سلام على إتاحة العديد من المواد بشكل مجاني لكل المهتمين به. نرجو أن تستمتع بهذه المجموعة من المقاطع التعريفية، والبرامج الصوتية والمرئية، والمحاضرات المُسجلة، واللقاءات الإعلامية. </p>
     </section>
 
     <section className="mb-4">
@@ -71,7 +71,7 @@ const page = () => {
             videoUrl="https://www.youtube.com/embed/_-hrqjVFIx4?si=y8kuc_wAtD2MtuCd"
           />
         </div>
-        <h2 className="text-center text-blue-900">المزيد من المقاطع</h2>
+        <h2 className="text-center text-[#015f6c]">المزيد من المقاطع</h2>
     </section>
   </div>
   )

@@ -11,7 +11,7 @@ export default function Topic({ children }) {
       <div className="flex flex-col md:flex-row">
         {/* القسم الأيمن */}
         <div className="w-full md:w-3/12  p-4 border-l-2">
-          <h2 className="p-2 border-2 text-xs md:text-sm border-blue-950 bg-blue-900 text-white cursor-pointer  mt-2 font-bold text-center mb-3">
+          <h2 className="p-2 border-2 text-xs md:text-sm border-blue-950 bg-[#015f6c] text-white cursor-pointer  mt-2 font-bold text-center mb-3">
             مجموعات الفتاوى
           </h2>
           <div className="grid grid-cols-1 gap-1">

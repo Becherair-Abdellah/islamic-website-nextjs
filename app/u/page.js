@@ -8,8 +8,11 @@ import { Button } from "@/components/ui/button";
 import VideoSection from "@/components/VideoSection";
 import React from "react";
 
+
 const Page = () => {
   return (
+   <>
+    
     <div className="mt-12 mb-12 space-y-24 mx-auto max-w-screen-xl">
       <div className="flex flex-col md:flex-row ">
         {/* الجزء الأيمن */}
@@ -165,6 +168,7 @@ const Page = () => {
         </p>
       </div>
     </div>
+   </>
   );
 };
 

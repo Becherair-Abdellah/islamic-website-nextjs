@@ -34,49 +34,49 @@ const NavigationLinks = () => {
   <nav aria-label="Global" className="w-full h-full mt-10  ">
           <ul className="flex flex-col items-start text-white gap-3  text-sm w-full">
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900  text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c]  text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }} href="/u/">  الرئيسية </Link>
             </li>
 
             <li  className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}    href="/u/namesallah">   الأسماء الحسنى </Link>
             </li>
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}   href="/u/fatwa/topics">    الفتاوى </Link>
             </li >
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}   href="/u/library/books"> المكتبة </Link>
             </li>
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}   href="/u/sounds/"> الصوتيات </Link>
             </li>
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <Link className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <Link className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}  href="/u/khotab/topics">  الخطب </Link>
             </li>
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <a className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <a className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}  href="/u/mawso3at/topics">  الموسوعات </a>
             </li>
 
             <li className="p-2 w-full rounded-md bg-blue-100">
-              <a className="transition text-blue-900 text-lg font-semibold" onClick={()=>{
+              <a className="transition text-[#015f6c] text-lg font-semibold" onClick={()=>{
                 setOpen(false);
               }}  href="#">  المنتدى </a>
             </li>

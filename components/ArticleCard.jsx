@@ -9,7 +9,7 @@ const ArticleCard = ({ title, description, tags, publicationDate, imageUrl }) =>
      
       <div className="p-4 flex-grow">
       <Link href="/u/articles/1" >
-        <h2 className="text-xl font-bold text-blue-900 mb-2 hover:underline cursor-pointer">{title}</h2></Link>
+        <h2 className="text-xl font-bold text-[#015f6c] mb-2 hover:underline cursor-pointer">{title}</h2></Link>
         <p className="text-gray-700 mb-4">{description}</p>
         <p className="text-gray-600 mb-2">تاريخ النشر: {publicationDate}</p>
         {tags && tags.length > 0 && (

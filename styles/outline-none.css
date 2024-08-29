@@ -1,0 +1,4 @@
+.no-focus-outline input {
+    outline: none !important;
+    @apply bg-[#015f6c]
+  }

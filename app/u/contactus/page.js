@@ -3,7 +3,7 @@ import React from 'react';
 const ContactForm = () => {
   return (
   <>
-    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-blue-900">
+    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-[#015f6c]">
     <h1 className="text-4xl md:text-6xl font-bold text-white">إتصل بنا</h1>
   </div>
     <div className="max-w-screen-lg mx-auto p-5">
@@ -17,7 +17,7 @@ const ContactForm = () => {
           </p>
           <div className="flex items-center mt-5">
             <svg
-              className="h-6 mr-2 text-blue-900"
+              className="h-6 mr-2 text-[#015f6c]"
               fill="currentColor"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const ContactForm = () => {
           </div>
           <div className="flex items-center mt-5">
             <svg
-              className="h-6 mr-2 text-blue-900"
+              className="h-6 mr-2 text-[#015f6c]"
               fill="currentColor"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const ContactForm = () => {
           </div>
           <div className="flex items-center mt-5">
             <svg
-              className="h-6 mr-2 text-blue-900"
+              className="h-6 mr-2 text-[#015f6c]"
               fill="currentColor"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ const ContactForm = () => {
             </div>
             <div className="my-2 w-1/2 lg:w-1/4">
               <button
-                className="uppercase text-sm font-bold tracking-wide bg-blue-900 text-gray-100 p-3 rounded-lg w-full 
+                className="uppercase text-sm font-bold tracking-wide bg-[#015f6c] text-gray-100 p-3 rounded-lg w-full 
               focus:outline-none focus:shadow-outline"
               >
                 إرسال

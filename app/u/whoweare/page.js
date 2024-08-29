@@ -3,7 +3,7 @@ import React from 'react';
 const IslamQA = () => {
   return (
     <div className='bg-green-50'>
-    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-blue-900">
+    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-[#015f6c]">
         <h1 className="text-4xl md:text-6xl font-bold text-white">عن الموقع</h1>
       </div>
 

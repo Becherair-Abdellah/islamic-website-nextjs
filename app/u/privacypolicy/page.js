@@ -3,7 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
   return (
   <>
-    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-blue-900">
+    <div className="flex-grow flex items-center justify-center h-[250px] border-t-2 bg-[#015f6c]">
     <h1 className="text-4xl md:text-6xl font-bold text-white">سياسة الخصوصية</h1>
   </div>
     <div className="max-w-6xl mx-auto p-6">

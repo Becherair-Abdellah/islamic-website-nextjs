@@ -27,7 +27,7 @@ const Search = () => {
 
   <div className="">
   <AlertDialog >
-  <AlertDialogTrigger className="bg-white text-blue-900 px-5 py-2 rounded-md">بحث</AlertDialogTrigger>
+  <AlertDialogTrigger className="bg-white text-[#015f6c] px-5 py-2 rounded-md">بحث</AlertDialogTrigger>
   <AlertDialogContent>
   <Command>
   <CommandInput className="pr-2" placeholder="البحث عن الفتاوى ,الأسماء" />
@@ -47,7 +47,7 @@ const Search = () => {
   </CommandList>
 </Command>
 <AlertDialogFooter className="gap-2">
-      <AlertDialogCancel className="bg-blue-900 text-white hover:bg-blue-700 hover:text-white">إلغاء</AlertDialogCancel>
+      <AlertDialogCancel className="bg-[#015f6c] text-white hover:bg-blue-[#015f6c] hover:text-white">إلغاء</AlertDialogCancel>
     </AlertDialogFooter>
   </AlertDialogContent>
 

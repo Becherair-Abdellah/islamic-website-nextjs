@@ -6,11 +6,11 @@ const ContentClass = ({ title, content,href }) => {
 <a href={href}></a>
     <div >
       {/* العنوان الكبير */}
-      <h2 className="text-2xl text-blue-900 md:text-4xl font-bold mb-4">
+      <h2 className="text-2xl text-[#015f6c] md:text-4xl font-bold mb-4">
        {title}
       </h2>
       {/* المحتوى */}
-      <div className="text-sm md:text-md mt-6 text-blue-900">
+      <div className="text-sm md:text-md mt-6 text-[#015f6c]">
         {/* {content} */}
         <p className="text-lg">
           الملك من له المُلك. والمُلك تصرّف عام مقيّد بالعدل والإحسان في كل عطاء

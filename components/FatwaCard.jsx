@@ -13,7 +13,7 @@ import {
         <div className="flex flex-col items-start ">
         <Card className="rounded-none border-blue-950 border-2 w-full bg-gray-50">
           <CardHeader className="p-2">
-            <CardTitle className="text-sm md:text-md text-blue-900 p-0 m-0 cursor-pointer">
+            <CardTitle className="text-sm md:text-md text-[#015f6c] p-0 m-0 cursor-pointer">
               {title}
             </CardTitle>
             <CardDescription className="text-black text-sm md:text-md">
@@ -36,7 +36,7 @@ import {
               ))}
             </div>
         </Card>
-        <p className="p-2 border-2 text-xs md:text-sm border-blue-950 hover:bg-blue-900 hover:text-white cursor-pointer  mt-2">
+        <p className="p-2 border-2 text-xs md:text-sm border-blue-950 hover:bg-[#015f6c] hover:text-white cursor-pointer  mt-2">
           قراءة المزيد
         </p>
       </div>

@@ -6,7 +6,7 @@ const ReactPlayer = dynamic(() => import('react-player'), { ssr: false });
 
 const VideoSection = ({ videoUrl, title }) => {
   return (
-    <div className="w-full max-w-3xl mx-auto my-4 p-0 border-2 border-blue-900  bg-gray-50 ">
+    <div className="w-full max-w-3xl mx-auto my-4 p-0 border-2 border-[#015f6c]  bg-gray-50 ">
      
       <div className="relative pb-[56.25%] h-0 overflow-hidden">
         <ReactPlayer
@@ -17,7 +17,7 @@ const VideoSection = ({ videoUrl, title }) => {
           height="100%"
         />
       </div>
-      <h2 className="text-md font-bold text-blue-900 my-3 px-2">{title}</h2>
+      <h2 className="text-md font-bold text-[#015f6c] my-3 px-2">{title}</h2>
       <p className='p-2'>البرامج الصوتية والمرئية، والمحاضرات المُسجلة، واللقاءات الإعلامية.</p>
     </div>
   );

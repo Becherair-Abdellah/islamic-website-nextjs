@@ -18,9 +18,9 @@ const LectureCard = ({ title, lectureNumber, bookName, publicationDate, lecturer
     };
   
     return (
-      <div className="border p-4 border-blue-900 flex flex-col justify-between">
+      <div className="border p-4 border-[#015f6c] flex flex-col justify-between">
         <div>
-          <h2 className="text-lg font-bold text-blue-900 cursor-pointer">
+          <h2 className="text-lg font-bold text-[#015f6c] cursor-pointer">
             {title} - {bookName} {lectureNumber}
           </h2>
           <p className="text-gray-600 mt-3">تاريخ النشر: {publicationDate}</p>
@@ -47,7 +47,7 @@ const LectureCard = ({ title, lectureNumber, bookName, publicationDate, lecturer
             {/* زر تشغيل الصوت */}
             <button
               onClick={handleAudioPlayPause}
-              className="bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+              className="bg-[#015f6c] text-white px-4 py-2 rounded hover:bg-blue-[#015f6c] transition"
             >
               {isPlaying ? <IoIosPause size={18} color="white" /> : <FaPlay size={18} color="white" />}
             </button>
